@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: TextWidget("Text widget app",color: Colors.green, fontSize: 44,),
+          child: TextWidget("Text widget app",color: Colors.green, fontSize: 44,styles: TextStyles.titleBold,),
         ),
       ),
     );
